@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-import backgroundImage from './pexels-johannes-plenio-1118873.jpg'
+// import backgroundImage from './pexels-johannes-plenio-1118873.jpg'
 
 const WeatherApp = () => {
   const [weatherData, setWeatherData] = useState(null);
