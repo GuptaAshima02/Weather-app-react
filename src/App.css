@@ -16,15 +16,34 @@
 
 .header {
   text-align: center;
-  margin-bottom: 30px;
-  
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+.input {
+  display: block;
+  width: 30%;
+  max-width: 400px; /* Added max-width to prevent input field from becoming too wide on larger screens */
+  height: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 16px;
+  position: absolute;
+  top: 220px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .header h1{
   padding-top: 90px;
   
   text-shadow: 3px 3px 0px #919191, 4px 4px 0px #000000;
 }
-.input {
+/* .input {
   display: block;
   width: 30%;
   height: 30px;
@@ -33,7 +52,7 @@
   border: 1px solid #ccc;
   border-radius: 30px;
   font-size: 16px;
-}
+} */
 .info {
   /* background-color: #f5f5f5; */
   padding: 20px;
@@ -48,6 +67,26 @@
   margin: 10px 0;
   /* text-shadow: 3px 3px 0px #919191, 4px 4px 0px #000000; */
 }
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error{
+  color: red;
+  font-size: 20px;
+}
+
 
 /* responsive */
 @media screen and (max-width: 480px) {
