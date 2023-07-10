@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a4ac8ea.css",
+    "main.js": "/static/js/main.6dca25ba.js",
+    "static/media/pexels-johannes-plenio-1118873.jpg": "/static/media/pexels-johannes-plenio-1118873.bd59187a29badb40b4b2.jpg",
+    "index.html": "/index.html",
+    "main.4a4ac8ea.css.map": "/static/css/main.4a4ac8ea.css.map",
+    "main.6dca25ba.js.map": "/static/js/main.6dca25ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a4ac8ea.css",
+    "static/js/main.6dca25ba.js"
+  ]
+}
