@@ -50,19 +50,14 @@
   background-color: #dddddd;
   cursor: not-allowed;
 }
-/* 
-.input-and-button button:hover {
-  background-color: #217dbb;
-} */
 
 .header h1 {
   text-shadow: 3px 3px 0px #919191, 4px 4px 0px #000000;
   font-size: 36px;
 }
 
-.image img{
+.image img {
   width: 100px;
-
 }
 
 .info {
@@ -85,8 +80,9 @@
 .info p {
   margin: 10px 0;
 }
-.info-icon{
- padding-right: 10px;
+
+.info-icon {
+  padding-right: 10px;
 }
 
 .loader {
@@ -105,17 +101,19 @@
 }
 
 /* responsive */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .header h1 {
-    padding-top: 60px;
     font-size: 28px;
   }
 
-  .info h2 {
-    font-size: 24px;
+  .info {
+    width: 50%;
+  }
+  .input-and-button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
   
-  .info p {
-    font-size: 14px;
-  }
 }
+
